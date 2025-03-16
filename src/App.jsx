@@ -5,6 +5,7 @@ import Recommendations from "./components/Recommendations/Recommendations";
 import Sidebar from "./components/Sidebar/Sidebar";
 import products from "./db/data";
 import Card from "./components/shared/Card";
+import './index.css'
 
 const App = () => {
   const [selectedCategory, setSelectedCategory] = useState(null);
